@@ -3,7 +3,6 @@
 # [0, 5, 6, 2, 7, 7, 8, 1, 1, 9] - 277 -> да
 # [4, 4, 3, 6, 7, 0, 8, 5, 1, 2] - 812 -> нет
 import random
-#numbers = [1, 5, 2, 3, 4, 6, 1, 7]
 numbers = [random.randint(0, 9) for i in range(15)]
 print(numbers)
 n = list(map(int, input('Введите 3-значное число: ')))
