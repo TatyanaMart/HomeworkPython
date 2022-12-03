@@ -10,7 +10,6 @@ count = False
 play = False
 number = None
 steps = 1
-is_started = False
 
 bot = telebot.TeleBot(
     "5925252982:AAGNGfYeZagrB4t3_xrOx7Q4TdzpYHjfuYs", parse_mode=None)
