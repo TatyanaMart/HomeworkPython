@@ -12,7 +12,7 @@ number = None
 steps = 1
 
 bot = telebot.TeleBot(
-    "5925252982:AAGNGfYeZagrB4t3_xrOx7Q4TdzpYHjfuYs", parse_mode=None)
+    "Your Token", parse_mode=None) 
 
 @bot.message_handler(commands=['start', 'help', 'hello'])
 def send_welcome(message):
